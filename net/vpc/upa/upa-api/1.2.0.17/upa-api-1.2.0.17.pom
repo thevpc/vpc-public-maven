@@ -19,8 +19,7 @@
     
     <dependencies>
     </dependencies>
-    
-    
+
     <distributionManagement>
         <site>
             <id>github</id>
