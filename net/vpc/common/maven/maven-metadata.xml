@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <plugins>
+    <plugin>
+      <name>maven-project-info-writer Maven Mojo</name>
+      <prefix>project-info-writer</prefix>
+      <artifactId>maven-project-info-writer-plugin</artifactId>
+    </plugin>
+  </plugins>
+</metadata>
