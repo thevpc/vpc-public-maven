@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>org.apache-extras.beanshell</groupId>
+  <artifactId>bsh</artifactId>
+  <versioning>
+    <release>2.1.0-pre</release>
+    <versions>
+      <version>2.1.0-pre</version>
+    </versions>
+    <lastUpdated>20160810130402</lastUpdated>
+  </versioning>
+</metadata>
