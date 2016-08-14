@@ -6,5 +6,10 @@
       <prefix>project-info-writer</prefix>
       <artifactId>maven-project-info-writer-plugin</artifactId>
     </plugin>
+    <plugin>
+      <name>writer-maven-plugin</name>
+      <prefix>writer</prefix>
+      <artifactId>writer-maven-plugin</artifactId>
+    </plugin>
   </plugins>
 </metadata>
