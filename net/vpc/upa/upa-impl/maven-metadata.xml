@@ -3,11 +3,12 @@
   <groupId>net.vpc.upa</groupId>
   <artifactId>upa-impl</artifactId>
   <versioning>
-    <release>1.2.0.26.0</release>
+    <release>1.2.0.26.1</release>
     <versions>
       <version>1.2.0.25.0</version>
       <version>1.2.0.26.0</version>
+      <version>1.2.0.26.1</version>
     </versions>
-    <lastUpdated>20160807211952</lastUpdated>
+    <lastUpdated>20160814094919</lastUpdated>
   </versioning>
 </metadata>
