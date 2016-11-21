@@ -3,12 +3,13 @@
   <groupId>net.vpc.scholar</groupId>
   <artifactId>math</artifactId>
   <versioning>
-    <release>3.0.43</release>
+    <release>3.0.44</release>
     <versions>
       <version>3.0.41</version>
       <version>3.0.42</version>
       <version>3.0.43</version>
+      <version>3.0.44</version>
     </versions>
-    <lastUpdated>20161120121015</lastUpdated>
+    <lastUpdated>20161121165300</lastUpdated>
   </versioning>
 </metadata>
