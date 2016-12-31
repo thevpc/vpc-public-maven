@@ -4,7 +4,7 @@ This repository exposes various java projects (binaries and sources) accessible 
 
 To use one of these dependencies one must register the repository in his is pom.xml
 
-
+```xml
 <repositories>
    ...
         <repository>
@@ -13,5 +13,5 @@ To use one of these dependencies one must register the repository in his is pom.
         </repository>
    ...
  </repositories>
-
+```
 
