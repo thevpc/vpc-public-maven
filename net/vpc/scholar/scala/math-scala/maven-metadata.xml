@@ -3,11 +3,10 @@
   <groupId>net.vpc.scholar.scala</groupId>
   <artifactId>math-scala</artifactId>
   <versioning>
-    <release>3.0.54</release>
+    <release>3.0.55</release>
     <versions>
-      <version>3.0.53</version>
-      <version>3.0.54</version>
+      <version>3.0.55</version>
     </versions>
-    <lastUpdated>20170324190550</lastUpdated>
+    <lastUpdated>20170512150216</lastUpdated>
   </versioning>
 </metadata>
