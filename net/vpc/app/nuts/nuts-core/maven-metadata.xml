@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.nuts</groupId>
   <artifactId>nuts-core</artifactId>
   <versioning>
-    <release>0.3.3.3</release>
+    <release>0.3.4.0</release>
     <versions>
-      <version>0.3.3.3</version>
+      <version>0.3.4.0</version>
     </versions>
-    <lastUpdated>20171021165829</lastUpdated>
+    <lastUpdated>20180107210932</lastUpdated>
   </versioning>
 </metadata>
