@@ -2,7 +2,7 @@
 <metadata>
   <plugins>
     <plugin>
-      <name>writer-maven-plugin</name>
+      <name>net.vpc.common.maven.writer-maven-plugin</name>
       <prefix>writer</prefix>
       <artifactId>writer-maven-plugin</artifactId>
     </plugin>
