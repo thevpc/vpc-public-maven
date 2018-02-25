@@ -3,11 +3,10 @@
   <groupId>net.vpc.app.vain-ruling.plugins.themes</groupId>
   <artifactId>vr-public-theme-infusion</artifactId>
   <versioning>
-    <release>1.13.0</release>
+    <release>1.13.1</release>
     <versions>
-      <version>1.1</version>
-      <version>1.13.0</version>
+      <version>1.13.1</version>
     </versions>
-    <lastUpdated>20180224123726</lastUpdated>
+    <lastUpdated>20180225102753</lastUpdated>
   </versioning>
 </metadata>
