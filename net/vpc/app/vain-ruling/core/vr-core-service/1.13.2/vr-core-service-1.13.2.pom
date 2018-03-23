@@ -22,6 +22,11 @@
 
     <dependencies>
         <dependency>
+            <groupId>net.vpc.app.vain-ruling.core</groupId>
+            <artifactId>vr-core-model</artifactId>
+            <version>1.13.2</version>
+        </dependency>
+        <dependency>
             <groupId>org.apache.httpcomponents</groupId>
             <artifactId>httpclient</artifactId>
             <version>4.5.2</version>
