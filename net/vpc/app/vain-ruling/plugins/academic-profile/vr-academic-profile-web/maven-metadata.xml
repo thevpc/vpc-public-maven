@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.vain-ruling.plugins.academic-profile</groupId>
   <artifactId>vr-academic-profile-web</artifactId>
   <versioning>
-    <release>1.13.3</release>
+    <release>1.13.4</release>
     <versions>
-      <version>1.13.3</version>
+      <version>1.13.4</version>
     </versions>
-    <lastUpdated>20180327045452</lastUpdated>
+    <lastUpdated>20180402190840</lastUpdated>
   </versioning>
 </metadata>
