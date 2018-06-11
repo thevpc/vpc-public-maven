@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.vain-ruling.plugins.academic-perf-eval</groupId>
   <artifactId>vr-academic-perf-eval-web</artifactId>
   <versioning>
-    <release>1.13.4</release>
+    <release>1.13.5</release>
     <versions>
-      <version>1.13.4</version>
+      <version>1.13.5</version>
     </versions>
-    <lastUpdated>20180402190731</lastUpdated>
+    <lastUpdated>20180611171805</lastUpdated>
   </versioning>
 </metadata>
