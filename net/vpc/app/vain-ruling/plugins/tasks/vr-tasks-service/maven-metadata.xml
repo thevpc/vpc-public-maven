@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.vain-ruling.plugins.tasks</groupId>
   <artifactId>vr-tasks-service</artifactId>
   <versioning>
-    <release>1.13.5</release>
+    <release>1.13.6</release>
     <versions>
-      <version>1.13.5</version>
+      <version>1.13.6</version>
     </versions>
-    <lastUpdated>20180628114035</lastUpdated>
+    <lastUpdated>20180710135020</lastUpdated>
   </versioning>
 </metadata>
