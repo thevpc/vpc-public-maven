@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.vain-ruling.plugins.forum</groupId>
   <artifactId>vr-forum-service</artifactId>
   <versioning>
-    <release>1.13.7</release>
+    <release>1.13.8</release>
     <versions>
-      <version>1.13.7</version>
+      <version>1.13.8</version>
     </versions>
-    <lastUpdated>20180730174417</lastUpdated>
+    <lastUpdated>20180802092231</lastUpdated>
   </versioning>
 </metadata>
