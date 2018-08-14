@@ -3,11 +3,10 @@
   <groupId>net.vpc.upa</groupId>
   <artifactId>upa-web</artifactId>
   <versioning>
-    <release>1.2.0.46.0</release>
+    <release>1.2.0.47.0</release>
     <versions>
-      <version>1.2.0.45.0</version>
-      <version>1.2.0.46.0</version>
+      <version>1.2.0.47.0</version>
     </versions>
-    <lastUpdated>20180801155015</lastUpdated>
+    <lastUpdated>20180814203901</lastUpdated>
   </versioning>
 </metadata>
