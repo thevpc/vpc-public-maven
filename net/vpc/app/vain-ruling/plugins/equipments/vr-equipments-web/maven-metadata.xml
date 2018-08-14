@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.vain-ruling.plugins.equipments</groupId>
   <artifactId>vr-equipments-web</artifactId>
   <versioning>
-    <release>1.13.8</release>
+    <release>1.13.9</release>
     <versions>
-      <version>1.13.8</version>
+      <version>1.13.9</version>
     </versions>
-    <lastUpdated>20180802092219</lastUpdated>
+    <lastUpdated>20180814204924</lastUpdated>
   </versioning>
 </metadata>
