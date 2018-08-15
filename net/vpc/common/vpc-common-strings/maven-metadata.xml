@@ -3,10 +3,10 @@
   <groupId>net.vpc.common</groupId>
   <artifactId>vpc-common-strings</artifactId>
   <versioning>
-    <release>1.2.12</release>
+    <release>1.2.13</release>
     <versions>
-      <version>1.2.12</version>
+      <version>1.2.13</version>
     </versions>
-    <lastUpdated>20180628112516</lastUpdated>
+    <lastUpdated>20180815105027</lastUpdated>
   </versioning>
 </metadata>
