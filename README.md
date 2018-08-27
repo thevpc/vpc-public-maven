@@ -2,7 +2,7 @@
 
 This repository exposes various java projects (binaries and sources) accessible as maven denpendencies.
 
-To use one of these dependencies one must register the repository in his pom.xml
+To use one of these dependencies one have to register the repository in your project's pom.xml by adding the following code :
 
 ```xml
 <repositories>
