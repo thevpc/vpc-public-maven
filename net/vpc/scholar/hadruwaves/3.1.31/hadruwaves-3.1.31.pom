@@ -5,7 +5,7 @@
     <groupId>net.vpc.scholar</groupId>
     <artifactId>hadruwaves</artifactId>
     <name>net.vpc.scholar.hadruwaves</name>
-    <version>${scholar-version}</version>
+    <version>3.1.31</version>
     <packaging>jar</packaging>
     <url>https://github.com/thevpc/scholar-mw</url>
     <properties>
