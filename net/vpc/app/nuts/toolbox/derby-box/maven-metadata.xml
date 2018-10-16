@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.vpc.app.nuts.toolbox</groupId>
+  <artifactId>derby-box</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20181016204524</lastUpdated>
+  </versioning>
+</metadata>
