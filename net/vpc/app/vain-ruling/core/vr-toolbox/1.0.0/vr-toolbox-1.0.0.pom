@@ -46,7 +46,7 @@
     </properties>
     <build>
         <plugins>
- <plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
                 <version>3.0.1</version>
@@ -125,19 +125,60 @@
                 <configuration>
                     <archive>
                         <manifest>
-                            <!-- Jar file entry point -->
-                            <mainClass>net.vpc.toolbox.netbeans.launcher.Main</mainClass>
+                            <mainClass>net.vpc.app.vr.core.toolbox.Main</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
             </plugin>            
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>single</goal>
+                        </goals>
+                        <configuration>
+                            <archive>
+                                <manifest>
+                                    <mainClass>
+                                        net.vpc.app.vr.core.toolbox.Main
+                                    </mainClass>
+                                </manifest>
+                            </archive>
+                            <descriptorRefs>
+                                <descriptorRef>jar-with-dependencies</descriptorRef>
+                            </descriptorRefs>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
         </plugins>
     </build>
+    
     <dependencies>
         <dependency>
             <groupId>net.vpc.common</groupId>
             <artifactId>vpc-common-strings</artifactId>
-            <version>1.2.13</version>
+            <version>1.2.14</version>
+        </dependency>
+    
+        <dependency>
+            <groupId>net.vpc.app</groupId>
+            <artifactId>nuts</artifactId>
+            <version>0.4.1</version>
         </dependency>
     </dependencies>
+    
+    <repositories>
+        <repository>
+            <id>vpc-public-maven</id>
+            <url>https://raw.github.com/thevpc/vpc-public-maven/master</url>
+            <snapshots>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+            </snapshots>
+        </repository>
+    </repositories>
 </project>
