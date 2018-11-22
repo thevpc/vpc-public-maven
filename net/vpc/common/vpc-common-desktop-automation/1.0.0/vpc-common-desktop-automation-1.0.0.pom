@@ -4,6 +4,7 @@
     <groupId>net.vpc.common</groupId>
     <artifactId>vpc-common-desktop-automation</artifactId>
     <version>1.0.0</version>
+    <name>net.vpc.common.vpc-common-desktop-automation</name>
     <packaging>jar</packaging>
     <description>
         Simple Desktop Automation System
@@ -40,7 +41,7 @@
         <dependency>
             <groupId>net.vpc.common</groupId>
             <artifactId>vpc-common-strings</artifactId>
-            <version>1.2.6</version>
+            <version>1.2.15</version>
         </dependency>
     </dependencies>
     <build>
@@ -48,6 +49,7 @@
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
+                <version>3.0.1</version>
                 <executions>
                     <execution>
                         <id>attach-sources</id>
@@ -60,6 +62,7 @@
 
             <plugin>
                 <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.0.2</version>
                 <executions>
                     <execution>
                         <phase>process-sources</phase>
@@ -110,4 +113,11 @@
             </plugin>
         </plugins>
     </build>
+
+    <repositories>
+        <repository>
+            <id>vpc-public-maven</id>
+            <url>https://raw.github.com/thevpc/vpc-public-maven/master</url>
+        </repository>
+    </repositories>
 </project>
