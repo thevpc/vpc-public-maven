@@ -79,6 +79,11 @@
             <version>1.2.15</version>
         </dependency>
         <dependency>
+            <groupId>net.vpc.common</groupId>
+            <artifactId>vpc-common-ssh</artifactId>
+            <version>1.0.0</version>
+        </dependency>
+        <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.12</version>
