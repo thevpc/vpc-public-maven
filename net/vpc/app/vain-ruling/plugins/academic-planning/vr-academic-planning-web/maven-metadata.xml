@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.vain-ruling.plugins.academic-planning</groupId>
   <artifactId>vr-academic-planning-web</artifactId>
   <versioning>
-    <release>1.13.11</release>
+    <release>1.13.12</release>
     <versions>
-      <version>1.13.11</version>
+      <version>1.13.12</version>
     </versions>
-    <lastUpdated>20181112163911</lastUpdated>
+    <lastUpdated>20181206205219</lastUpdated>
   </versioning>
 </metadata>
