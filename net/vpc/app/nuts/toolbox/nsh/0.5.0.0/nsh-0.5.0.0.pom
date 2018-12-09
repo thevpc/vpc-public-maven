@@ -83,6 +83,11 @@
         </dependency>
         <dependency>
             <groupId>net.vpc.common</groupId>
+            <artifactId>vpc-common-utils</artifactId>
+            <version>1.22.0</version>
+        </dependency>
+        <dependency>
+            <groupId>net.vpc.common</groupId>
             <artifactId>vpc-common-mvn</artifactId>
             <version>1.0.0</version>
         </dependency>
