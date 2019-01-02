@@ -3,11 +3,10 @@
   <groupId>net.vpc.common</groupId>
   <artifactId>vpc-common-mvn</artifactId>
   <versioning>
-    <release>1.1.0</release>
+    <release>1.1.1</release>
     <versions>
-      <version>1.0.0</version>
-      <version>1.1.0</version>
+      <version>1.1.1</version>
     </versions>
-    <lastUpdated>20181220130235</lastUpdated>
+    <lastUpdated>20190102212505</lastUpdated>
   </versioning>
 </metadata>
