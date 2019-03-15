@@ -3,10 +3,10 @@
   <groupId>net.vpc.app</groupId>
   <artifactId>netbeans-launcher</artifactId>
   <versioning>
-    <release>1.0.3</release>
+    <release>1.1.0</release>
     <versions>
-      <version>1.0.3</version>
+      <version>1.1.0</version>
     </versions>
-    <lastUpdated>20181224225935</lastUpdated>
+    <lastUpdated>20190315205423</lastUpdated>
   </versioning>
 </metadata>
