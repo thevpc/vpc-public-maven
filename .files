@@ -1,3 +1,9 @@
+#version=0.5.7
+com/
+css/
+images/
+net/
+org/
 README.md
 dependencies.html
 dependency-convergence.html

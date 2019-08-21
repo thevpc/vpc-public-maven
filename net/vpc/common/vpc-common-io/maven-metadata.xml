@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <metadata>
   <groupId>net.vpc.common</groupId>
   <artifactId>vpc-common-io</artifactId>
@@ -6,6 +6,18 @@
     <release>1.3.12</release>
     <versions>
       <version>1.3.12</version>
+      <version>1.3.11</version>
+      <version>1.3.10</version>
+      <version>1.3.9</version>
+      <version>1.3.8</version>
+      <version>1.3.7</version>
+      <version>1.3.6</version>
+      <version>1.3.5</version>
+      <version>1.3.4</version>
+      <version>1.3.3</version>
+      <version>1.3.2</version>
+      <version>1.3.1</version>
+      <version>1.3</version>
     </versions>
     <lastUpdated>20190608105112</lastUpdated>
   </versioning>

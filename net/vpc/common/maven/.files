@@ -1,3 +1,6 @@
+#version=0.5.7
+maven-project-info-writer-plugin/
+writer-maven-plugin/
 maven-metadata.xml
 maven-metadata.xml.md5
 maven-metadata.xml.sha1

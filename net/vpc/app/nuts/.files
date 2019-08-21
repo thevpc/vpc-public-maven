@@ -1,3 +1,13 @@
+#version=0.5.7
+0.4.1/
+0.4.2/
+nuts/
+nuts-cmd-app/
+nuts-core/
+nuts-lib-template/
+nuts-servlet/
+nuts-tomcat-classloader/
+toolbox/
 maven-metadata.xml
 maven-metadata.xml.md5
 maven-metadata.xml.sha1

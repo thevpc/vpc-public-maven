@@ -1,0 +1,7 @@
+#version=0.5.7
+upa-android/
+upa-api/
+upa-impl/
+upa-impl-core/
+upa-web/
+upa-xml-config/
