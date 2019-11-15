@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>net.vpc.scholar</groupId>
   <artifactId>hadruwaves-puppets</artifactId>
@@ -7,6 +7,6 @@
     <versions>
       <version>1.0</version>
     </versions>
-    <lastUpdated>20190712181859</lastUpdated>
+    <lastUpdated>20191115183007</lastUpdated>
   </versioning>
 </metadata>
