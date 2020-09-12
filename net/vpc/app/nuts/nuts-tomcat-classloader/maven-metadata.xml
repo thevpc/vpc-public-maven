@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.nuts</groupId>
   <artifactId>nuts-tomcat-classloader</artifactId>
   <versioning>
-    <release>n.0.7.0.0.t.8.0.21</release>
+    <release>n.0.7.1.0.t.8.0.21</release>
     <versions>
-      <version>n.0.7.0.0.t.8.0.21</version>
+      <version>n.0.7.1.0.t.8.0.21</version>
     </versions>
-    <lastUpdated>20200802083245</lastUpdated>
+    <lastUpdated>20200912165600</lastUpdated>
   </versioning>
 </metadata>
