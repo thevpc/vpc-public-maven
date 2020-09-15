@@ -19,7 +19,7 @@
         </dependency>
         <dependency>
             <groupId>net.vpc.common</groupId>
-            <artifactId>vpc-common-text-template</artifactId>
+            <artifactId>vpc-common-file-template</artifactId>
             <version>1.0.0</version>
         </dependency>
         <dependency>
