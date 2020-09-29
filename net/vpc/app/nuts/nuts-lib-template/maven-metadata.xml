@@ -3,10 +3,10 @@
   <groupId>net.vpc.app.nuts</groupId>
   <artifactId>nuts-lib-template</artifactId>
   <versioning>
-    <release>0.7.1.0</release>
+    <release>0.7.2.0</release>
     <versions>
-      <version>0.7.1.0</version>
+      <version>0.7.2.0</version>
     </versions>
-    <lastUpdated>20200912165506</lastUpdated>
+    <lastUpdated>20200929050143</lastUpdated>
   </versioning>
 </metadata>
