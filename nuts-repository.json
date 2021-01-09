@@ -1,6 +1,6 @@
 {
   "uuid": "b8461228-1d15-4a52-8972-d226a5fd5c6a",
   "name": "vpc-public-maven",
-  "type": "maven:files",
+  "type": "maven+files",
   "configVersion": "0.8.1"
 }
