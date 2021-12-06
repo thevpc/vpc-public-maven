@@ -1,0 +1,8 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 01:31:41 CET 2018
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1543797101586
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1543796538494
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+http\://repository.primefaces.org/.error=
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact org.jzy3d\:jzy3d-jdt-core\:jar\:sources\:1.0.0-20170203.214948-22 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/org/jzy3d/jzy3d-jdt-core/1.0.0-SNAPSHOT/jzy3d-jdt-core-1.0.0-20170203.214948-22-sources.jar , ReasonPhrase\:Forbidden.
+http\://repository.primefaces.org/.lastUpdated=1511907697457

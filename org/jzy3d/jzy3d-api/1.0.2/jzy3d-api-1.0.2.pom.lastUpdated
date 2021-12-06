@@ -1,0 +1,15 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 22 21:42:32 CET 2021
+http\://maven.jzy3d.org/snapshots/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+http\://repo.maven.apache.org/maven2/.lastUpdated=1569740627222
+http\://0.0.0.0/.error=Could not transfer artifact org.jzy3d\:jzy3d-api\:pom\:1.0.2 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jzy3d-snapshots (http\://maven.jzy3d.org/snapshots, default, releases+snapshots), jzy3d-releases (http\://maven.jzy3d.org/releases, default, releases+snapshots), amelentev (http\://amelentev.github.io/mvnrepo/, default, releases+snapshots)]
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1634934100380
+http\://maven.jzy3d.org/releases/.lastUpdated=1569740627891
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact org.jzy3d\:jzy3d-api\:pom\:1.0.2 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: authorization failed for https\://oss.sonatype.org/content/groups/scala-tools/org/jzy3d/jzy3d-api/1.0.2/jzy3d-api-1.0.2.pom, status\: 403 Forbidden
+http\://repo.maven.apache.org/maven2/.error=
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1634935352173
+https\://repo.maven.apache.org/maven2/.lastUpdated=1634933852921
+https\://repo.maven.apache.org/maven2/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1634933854115
+http\://maven.jzy3d.org/snapshots/.lastUpdated=1569740627554

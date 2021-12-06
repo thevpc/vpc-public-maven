@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sat Nov 13 13:12:34 CET 2021
+https\://repo.maven.apache.org/maven2/.lastUpdated=1636805553013
+http\://maven.jzy3d.org/snapshots/.lastUpdated=1636805553192
+http\://maven.jzy3d.org/releases/.lastUpdated=1636805554992
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1634938477711
+https\://repo.maven.apache.org/maven2/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+http\://maven.jzy3d.org/snapshots/.error=

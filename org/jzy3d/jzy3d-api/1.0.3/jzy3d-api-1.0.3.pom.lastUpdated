@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 06 11:22:42 CET 2021
+http\://maven.jzy3d.org/snapshots/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+http\://0.0.0.0/.error=Could not transfer artifact org.jzy3d\:jzy3d-api\:pom\:1.0.3 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jzy3d-snapshots (http\://maven.jzy3d.org/snapshots/, default, releases+snapshots)]
+http\://maven.jzy3d.org/releases/.lastUpdated=1636805550082
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1638786162457
+https\://repo.maven.apache.org/maven2/.lastUpdated=1638780211502
+https\://repo.maven.apache.org/maven2/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1638780212698
+http\://maven.jzy3d.org/snapshots/.lastUpdated=1636805549335

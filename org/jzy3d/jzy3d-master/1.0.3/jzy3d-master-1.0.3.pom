@@ -1,0 +1,216 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.jzy3d</groupId>
+	<artifactId>jzy3d-master</artifactId>
+	<version>1.0.3</version>
+	<packaging>pom</packaging>
+
+	<name>Jzy3d Master Project</name>
+	<url>http://www.jzy3d.org</url>
+	<description>A java API to draw 3d charts.</description>
+
+	<developers>
+		<developer>
+			<id>martin.pernollet</id>
+			<name>Martin Pernollet</name>
+			<email>martin@jzy3d.org</email>
+			<url>http://twitter.com/jzy3d</url>
+		</developer>
+		<developer>
+			<id>nils.hoffmann</id>
+			<name>Nils Hoffmann</name>
+		</developer>
+		<developer>
+			<id>juan.barandiaran</id>
+			<name>Juan Barandiaran</name>
+		</developer>
+		<developer>
+			<id>jacob.filik</id>
+			<name>Jacob Filik</name>
+		</developer>
+	</developers>
+
+	<licenses>
+		<license>
+			<name>The (New) BSD License</name>
+			<url>http://www.opensource.org/licenses/bsd-license.php</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
+	<scm>
+  	<connection>scm:git:https://github.com/jzy3d/jzy3d-api</connection>
+    <tag>jzy3d-master-1.0.3</tag>
+  </scm>
+
+	<issueManagement>
+		<system>Github</system>
+		<url>https://github.com/jzy3d/jzy3d-api/issues</url>
+	</issueManagement>
+
+	<modules>
+		<module>jzy3d-api</module>
+		<module>jzy3d-tester</module>
+		<module>jzy3d-depthpeeling</module>
+		<module>jzy3d-javafx</module>
+		<module>jzy3d-jdt-core</module>
+		<module>jzy3d-svm-mapper</module>
+		<module>jzy3d-swt</module>
+		<module>jzy3d-tools-libsvm</module>
+		<module>jzy3d-tutorials</module>
+	</modules>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<version.jzy3d>${project.version}</version.jzy3d>
+		<version.java.source>1.8</version.java.source>
+		<version.java.target>1.8</version.java.target>
+		<version.mvn.compiler>3.0</version.mvn.compiler>
+		<version.mvn.ftp>1.0-beta-6</version.mvn.ftp>
+		<version.mvn.deploy>2.4</version.mvn.deploy>
+		<version.mvn.javadoc>2.9.1</version.mvn.javadoc>
+		<version.mvn.release>2.5.3</version.mvn.release>
+		<version.libs.junit>4.10</version.libs.junit>
+		<version.libs.swt>4.2.1</version.libs.swt>
+	</properties>
+
+	<!--
+	Used to deploy to Jzy3d repository-->
+
+	<distributionManagement>
+		<repository>
+			<id>jzy3d-ftp</id>
+			<name>Jzy3d Maven Folder</name>
+			<url>ftp://ftp.cluster013.ovh.net/maven/releases</url>
+		</repository>
+		<snapshotRepository>
+			<id>jzy3d-ftp</id>
+			<name>Jzy3d Maven Folder SNAPSHOTS</name>
+			<url>ftp://ftp.cluster013.ovh.net/maven/snapshots</url>
+		</snapshotRepository>
+	</distributionManagement>
+
+<!--
+	<distributionManagement>
+	  <snapshotRepository>
+	    <id>ossrh</id>
+	    <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+	  </snapshotRepository>
+	  <repository>
+	    <id>ossrh</id>
+	    <url>https://oss.sonatype.org/service/local/staging/deploy/maven2/</url>
+	  </repository>
+	</distributionManagement>
+-->
+
+
+	<build>
+		<plugins>
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-compiler-plugin</artifactId>
+					<version>${version.mvn.compiler}</version>
+					<configuration>
+						<source>${version.java.source}</source>
+						<target>${version.java.target}</target>
+					</configuration>
+				</plugin>
+
+				<!--<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-deploy-plugin</artifactId>
+					<version>${version.mvn.deploy}</version>
+					<configuration>
+						<skip>true</skip>
+					</configuration>
+				</plugin>-->
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-source-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>attach-sources</id>
+							<phase>deploy</phase>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+
+				<plugin>
+					<groupId>org.apache.maven.plugins</groupId>
+					<artifactId>maven-javadoc-plugin</artifactId>
+					<version>${version.mvn.javadoc}</version>
+					<!--<configuration> <stylesheetfile>jzy3d-api/doc/layout.css</stylesheetfile>
+						</configuration> -->
+					<executions>
+						<execution>
+							<id>attach-javadocs</id>
+							<phase>deploy</phase>
+							<goals>
+								<goal>jar</goal>
+							</goals>
+						</execution>
+					</executions>
+				</plugin>
+
+				<plugin>
+					<artifactId>maven-release-plugin</artifactId>
+					<version>${version.mvn.release}</version>
+				</plugin>
+
+				<!--<plugin>
+            <groupId>org.sonatype.plugins</groupId>
+            <artifactId>nexus-staging-maven-plugin</artifactId>
+            <version>1.6.7</version>
+            <extensions>true</extensions>
+            <configuration>
+                <serverId>ossrh</serverId>
+                <nexusUrl>https://oss.sonatype.org/</nexusUrl>
+                <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                COMMENT ME PLEASE<skipStagingRepositoryClose>true</skipStagingRepositoryClose>
+            </configuration>
+        </plugin>-->
+
+  			<!-- To sign artigact while deploying to Maven central via Sonatype -->
+		    <!--<plugin>
+		      <groupId>org.apache.maven.plugins</groupId>
+		      <artifactId>maven-gpg-plugin</artifactId>
+		      <version>1.5</version>
+		      <executions>
+		        <execution>
+		          <id>sign-artifacts</id>
+		          <phase>deploy</phase>
+		          <goals>
+		            <goal>sign</goal>
+		          </goals>
+		        </execution>
+		      </executions>
+		    </plugin>-->
+		  </plugins>
+
+		<extensions>
+			<extension>
+				<groupId>org.apache.maven.wagon</groupId>
+				<artifactId>wagon-ftp</artifactId>
+				<version>${version.mvn.ftp}</version>
+			</extension>
+		</extensions>
+	</build>
+
+
+	<profiles>
+		<profile>
+			<id>disable-java8-doclint</id>
+			<activation>
+				<jdk>[1.8,)</jdk>
+			</activation>
+			<properties>
+				<additionalparam>-Xdoclint:none</additionalparam>
+			</properties>
+		</profile>
+	</profiles>
+
+</project>

@@ -1,0 +1,16 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 01:31:42 CET 2018
+http\://maven.jzy3d.org/snapshots/.error=
+http\://bits.netbeans.org/nexus/content/groups/netbeans/.lastUpdated=1543796664211
+http\://repository.primefaces.org/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1543796665372
+http\://maven.jzy3d.org/releases/.lastUpdated=1543796664522
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact org.jzy3d\:jzy3d-api\:jar\:sources\:1.0.1-20170826.220439-34 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/org/jzy3d/jzy3d-api/1.0.1-SNAPSHOT/jzy3d-api-1.0.1-20170826.220439-34-sources.jar , ReasonPhrase\:Forbidden.
+http\://amelentev.github.io/mvnrepo/.error=
+http\://maven.jzy3d.org/releases/.error=
+http\://bits.netbeans.org/nexus/content/groups/netbeans/.error=
+http\://amelentev.github.io/mvnrepo/.lastUpdated=1543796664747
+http\://repository.primefaces.org/.lastUpdated=1543796663287
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1543797102069
+http\://maven.jzy3d.org/snapshots/.lastUpdated=1543796664369

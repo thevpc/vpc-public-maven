@@ -1,0 +1,11 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Thu Jan 21 14:07:03 CET 2021
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+http\://repo.maven.apache.org/maven2/.lastUpdated=1559440245241
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1527469573750
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact org.jzy3d\:jzy3d-jdt-core\:pom\:1.0.1-20170826.220405-31 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/org/jzy3d/jzy3d-jdt-core/1.0.1-SNAPSHOT/jzy3d-jdt-core-1.0.1-20170826.220405-31.pom , ReasonPhrase\:Forbidden.
+http\://repo.maven.apache.org/maven2/.error=
+https\://repo.maven.apache.org/maven2/.lastUpdated=1611234356450
+https\://repo.maven.apache.org/maven2/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1611234423261
+http\://maven.jzy3d.org/snapshots/.lastUpdated=1527469573942

@@ -1,0 +1,9 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Sun Sep 29 08:03:51 CET 2019
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1569740630014
+http\://maven.jzy3d.org/snapshots/.lastUpdated=1569740630168
+http\://maven.jzy3d.org/releases/.lastUpdated=1569740631444
+http\://repo.maven.apache.org/maven2/.lastUpdated=1569740629411
+http\://repo.maven.apache.org/maven2/.error=
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact org.jzy3d\:jzy3d-jdt-core\:jar\:1.0.2 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/org/jzy3d/jzy3d-jdt-core/1.0.2/jzy3d-jdt-core-1.0.2.jar
+http\://maven.jzy3d.org/snapshots/.error=

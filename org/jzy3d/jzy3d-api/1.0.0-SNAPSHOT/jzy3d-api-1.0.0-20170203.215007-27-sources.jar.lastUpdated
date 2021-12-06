@@ -1,0 +1,12 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Mon Dec 03 01:31:42 CET 2018
+http\://maven.jzy3d.org/snapshots/.error=
+http\://repository.primefaces.org/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1543796873777
+http\://maven.jzy3d.org/releases/.lastUpdated=1501054397119
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact org.jzy3d\:jzy3d-api\:jar\:sources\:1.0.0-20170203.215007-27 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: Access denied to\: https\://oss.sonatype.org/content/groups/scala-tools/org/jzy3d/jzy3d-api/1.0.0-SNAPSHOT/jzy3d-api-1.0.0-20170203.215007-27-sources.jar , ReasonPhrase\:Forbidden.
+http\://maven.jzy3d.org/releases/.error=
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1543797102922
+http\://repository.primefaces.org/.lastUpdated=1511907605924
+http\://maven.jzy3d.org/snapshots/.lastUpdated=1501054396956
