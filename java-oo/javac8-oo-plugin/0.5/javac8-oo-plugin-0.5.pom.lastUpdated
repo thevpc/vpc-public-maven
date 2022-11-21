@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 21 13:15:42 CET 2022
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1669032941675
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1669032942001
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+http\://0.0.0.0/.error=Could not transfer artifact java-oo\:javac8-oo-plugin\:pom\:0.5 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jzy3d-snapshots (http\://maven.jzy3d.org/snapshots, default, releases+snapshots), jzy3d-releases (http\://maven.jzy3d.org/releases, default, releases+snapshots), amelentev (http\://amelentev.github.io/mvnrepo/, default, releases+snapshots)]
+https\://repo.maven.apache.org/maven2/.lastUpdated=1669032941728
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1669032942010
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact java-oo\:javac8-oo-plugin\:pom\:0.5 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: authorization failed for https\://oss.sonatype.org/content/groups/scala-tools/java-oo/javac8-oo-plugin/0.5/javac8-oo-plugin-0.5.pom, status\: 403 Forbidden
+https\://repo.maven.apache.org/maven2/.error=

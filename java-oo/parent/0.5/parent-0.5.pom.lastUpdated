@@ -1,0 +1,10 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Nov 21 13:20:42 CET 2022
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1669033242099
+@default-scala-tools.org-https\://oss.sonatype.org/content/groups/scala-tools/.lastUpdated=1669033242892
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+http\://0.0.0.0/.error=Could not transfer artifact java-oo\:parent\:pom\:0.5 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jzy3d-snapshots (http\://maven.jzy3d.org/snapshots, default, releases+snapshots), jzy3d-releases (http\://maven.jzy3d.org/releases, default, releases+snapshots), amelentev (http\://amelentev.github.io/mvnrepo/, default, releases+snapshots), netbeans (http\://bits.netbeans.org/nexus/content/groups/netbeans/, default, releases+snapshots)]
+https\://repo.maven.apache.org/maven2/.lastUpdated=1669033242609
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1669033242902
+https\://oss.sonatype.org/content/groups/scala-tools/.error=Could not transfer artifact java-oo\:parent\:pom\:0.5 from/to scala-tools.org (https\://oss.sonatype.org/content/groups/scala-tools)\: authorization failed for https\://oss.sonatype.org/content/groups/scala-tools/java-oo/parent/0.5/parent-0.5.pom, status\: 403 Forbidden
+https\://repo.maven.apache.org/maven2/.error=
