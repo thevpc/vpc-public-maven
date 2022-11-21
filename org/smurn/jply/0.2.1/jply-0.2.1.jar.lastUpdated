@@ -1,0 +1,8 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Fri Oct 07 18:23:46 CET 2022
+https\://raw.github.com/thevpc/vpc-public-maven/master/.lastUpdated=1665163426385
+https\://raw.github.com/thevpc/vpc-public-maven/master/.error=
+http\://0.0.0.0/.error=Could not transfer artifact org.smurn\:jply\:jar\:0.2.1 from/to maven-default-http-blocker (http\://0.0.0.0/)\: Blocked mirror for repositories\: [jzy3d-snapshots (http\://maven.jzy3d.org/snapshots/, default, releases+snapshots), jzy3d-releases (http\://maven.jzy3d.org/releases/, default, releases+snapshots)]
+https\://repo.maven.apache.org/maven2/.lastUpdated=1665163417967
+@default-maven-default-http-blocker-http\://0.0.0.0/.lastUpdated=1665163426386
+https\://repo.maven.apache.org/maven2/.error=
